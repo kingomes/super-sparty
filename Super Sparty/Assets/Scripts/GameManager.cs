@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI; // include UI namespace so can reference UI elements
 using UnityEngine.SceneManagement; // include so we can manipulate SceneManager
+using TMPro;
 
 public class GameManager : MonoBehaviour {
 
@@ -19,9 +20,9 @@ public class GameManager : MonoBehaviour {
 	public int lives = 3;
 
 	// UI elements to control
-	public Text UIScore;
-	public Text UIHighScore;
-	public Text UILevel;
+	public TMP_Text UIScore;
+	public TMP_Text UIHighScore;
+	public TMP_Text UILevel;
 	public GameObject[] UIExtraLives;
 	public GameObject UIGamePaused;
 

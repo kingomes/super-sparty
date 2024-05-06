@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpartyIconWithBackground_0: 6869055993285871950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
